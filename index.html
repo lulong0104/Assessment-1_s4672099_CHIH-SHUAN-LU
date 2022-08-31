@@ -7,7 +7,7 @@
     <title>Course Satisfaction Survey</title>
 
     <!-- css file link -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="container">
@@ -16,7 +16,7 @@
                 Web Technologies Course Satisfaction Survey
             </h1>
             <p id="my description will be here"></p>
-                Thank you for your feedback!
+                Personal Information
         </header>
         <form action="" id="survey-form">
             <!--text name section-->
@@ -78,6 +78,11 @@
                     <option value="Session 4">Session 4</option>
                     <option value="Session 5">Session 5</option>
                     <option value="Session 6">Session 6</option>
+                    <option value="Session 1">Session 7</option>
+                    <option value="Session 2">Session 8</option>
+                    <option value="Session 3">Session 9</option>
+                    <option value="Session 4">Session 10</option>
+                    <option value="Session 5">Session 11</option>
                     <option value="None of them">None of them</option>
             </select>
             </div>
@@ -383,12 +388,22 @@
             <!--end of check box section-->
 
             <!--text area-->
-            <p>
-                <label>Do you have any comment?<br/>
-                <textarea name="comments" maxlength="700"></textarea>
-                </label>
-                </p>
+            <div class="form-group">
+                <p id="quest">Give us your feedback!</p> 
+                <textarea name="feedback" id="feedback" cols="30" rows="10" class="textarea" placeholder="What do you think about the course?"></textarea>
+            </div>
             <!--end of text area-->
+
+            <!--submit buttom-->
+            <div class="form-group">
+            <button type="submit" id="submit" class="bottom">Submit</button>
+            </div>
+            <!--submit buttom end-->
+            
+
+
+
+
         </form>
     </div>
 </body>
