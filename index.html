@@ -66,10 +66,10 @@
                 placeholder="@students.vu.edu.au" 
                 required>
             <!--end of email section-->
-
+                <br/>
             <!--select section-->
             <div class="form-group">
-                <p id="quest">Which is your favorite session?</p>
+                <p id="quest"><h3>Which is your favorite session?</h3></p>
                 <select name="session"
                 id="dropdown" class="formControl"
                 required>
@@ -89,10 +89,13 @@
             </select>
             </div>
             <!--end of selction section-->
-
+            <br/>
+            <hr/>
+            <br/>
             <!--radio button section-->
             <div class="form-group">
-                <p id="quest">Rate your overall experience of the course</p>
+                <h2>● Evaluation ●</h2>
+                <p id="quest"><h3>Q : What‘s your overall experience of the course?</h3></p>
                 <label for="">
                     <input type="radio" 
                     name="source" 
@@ -133,74 +136,95 @@
             <!--end of radio button section-->
 
             <!--range section-->
+            <p>1.  The instructor was well prepared for the class. (0-5)</p>
             <div class="main">
-                <input type="range" min="0" max="100" value="50" id="slider">
-                <div id="selector">
-                <div class="SelectBtn"></div>
-
+                <input type="range" min="0" max="50" value="10" id="slider">
+            </div>
+            <br/>
+            <p>2.  The instructor showed an interest in helping students learn. (0-5)</p>
+             <div class="main">
+                <input type="range" min="0" max="50" value="10" id="slider">
+            </div>
+            <br/>
+            <p>3.  I received useful feedback on my performance. (0-5)</p>
+             <div class="main">
+                <input type="range" min="0" max="50" value="10" id="slider">
+            </div>
+            <br/>
+            <p>4.  The instructional materials increased my knowledge and skills. (0-5)</p>
+             <div class="main">
+                <input type="range" min="0" max="50" value="10" id="slider">
+            </div>
+            <br/>
+            <p>5.  The course was organized in a manner. (0-5)</p>
+             <div class="main">
+                <input type="range" min="0" max="50" value="10" id="slider">
+            </div>
+            <br/>
+            <p>6.  The course gave me the confidence to do more advanced work in the subject. (0-5)</p>
+             <div class="main">
+                <input type="range" min="0" max="50" value="10" id="slider">
             </div>
 
             <!--end of range section-->
-
+            <br/>
+            <hr/>
+            <br/>
             <!--check box section-->
             <div class="form-group">
-                <p id="quest">What would you like to learn more?</p>
+                <h2>● Feedback ●</h2>
+                <p id="quest"><h3>What would you like to learn more?</h3></p>
                 <label for="">
                     <input type="checkbox"
                     name="prefer"
                     class="checkbox"
-                    value="HTML">HTML
+                    value="HTML">Programming language(HTML,CSS,JS,PYTHON etc..)
                 </label>
-                <br/>
             
                 <label for="">
                     <input type="checkbox"
                     name="prefer"
                     class="checkbox"
-                    value="CSS">CSS
+                    value="CSS">3D models
                 </label>
-                <br/>
+
                 <label for="">
                     <input type="checkbox"
                     name="prefer"
                     class="checkbox"
-                    value="Javascript">Javascript
+                    value="Javascript">Wordpress
                 </label>
-                <br/>
                 <label for="">
                     <input type="checkbox"
                     name="prefer"
                     class="checkbox"
-                    value="SQL">SQL
+                    value="SQL">UI & UX
                 </label>
-                <br/>
                 <label for="">
                     <input type="checkbox"
                     name="prefer"
                     class="checkbox"
-                    value="Python">Python
-                </label>
-                <br/>         
+                    value="Python">Website Developer Skill
+                </label>       
                 <label for="">
                     <input type="checkbox"
                     name="prefer"
                     class="checkbox"
-                    value="Bootstrap">Bootstrap
-                </label>
-                <br/>     
+                    value="Bootstrap">PlayCanvas
+                </label>  
                 <label for="">
                     <input type="checkbox"
                     name="prefer"
                     class="checkbox"
-                    value="Others">Others
+                    value="Others">Others (please write below.)
                 </label>
             </div>
             <!--end of check box section-->
 
             <!--text area-->
             <div class="form-group">
-                <p id="quest">Give us your feedback!</p> 
-                <textarea name="feedback" id="feedback" cols="30" rows="10" class="textarea" placeholder="What do you think about the course?"></textarea>
+                <p id="quest"><h3>Give us your feedback :-)</h3></p> 
+                <textarea name="feedback" id="feedback" cols="30" rows="10" class="textarea" placeholder="What do you think about this course?"></textarea>
             </div>
             <!--end of text area-->
 
