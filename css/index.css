@@ -29,7 +29,7 @@ body::before{
     z-index: -1;
     background: var(--color-darkblue);
     background-image: 
-    linear-gradient(215deg,rgba(75, 113, 179, 0.8),rgba(124, 192, 147, 0.8)),url("../image/background-image-1.jpg");
+    linear-gradient(215deg,rgba(188, 151, 78, 0.4),rgba(247, 207, 174, 0.1)),url("../image/background-image-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -96,7 +96,7 @@ input,button,select,textarea{
     font-size: 1.5rem;
 }
 form{
-    background: var(--color-darkblue-alpha);
+    background: rgba(83, 102, 63, 0.4) ;
     border-radius: 0.25rem;
 }
 
@@ -125,7 +125,7 @@ form{
 }
 
 .formControl:focus{
-    border-color:blue;
+    border-color:rgb(61, 55, 7);
     outline: 0;
     box-shadow:0 0 0 0.2rem rgba(0,123,255,0.25)
 }
@@ -144,7 +144,7 @@ form{
     padding: 0.75rem;
     font-size: 1.15rem;
     outline: none;
-    border-color: blue;
+    border-color: rgb(125, 80, 2);
     border-radius: 5px;
 }
 
@@ -152,14 +152,14 @@ form{
     display: block;
     width: 100%;
     padding:0.5rem 0.75rem;
-    background: var(--color-green);
+    background: var(--color-white);
     color: inherit;
     border-radius: 15px;
     cursor: pointer;
     outline: none;
     text-transform: uppercase;
     font-size: 1.5rem;
-    color: blue;
+    color: rgb(71, 62, 6);
     border: none;
 }
 
