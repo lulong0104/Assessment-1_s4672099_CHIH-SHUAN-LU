@@ -48,7 +48,7 @@ A simple satisfaction survey for VU students who attend Web Technologies.
 ## Author
 * Chih-Shuan Lu(Zipporah)
 ```bash
-Hello! You can also call me Zipporah.
+Hello ! You can also call me Zipporah.
 As a Graphic Designer& Video Editor with 3+ years of experience, I came to Australia to study Master of Digiatal Media.
-This is my first time do coding. I am super excited to learn further more!
+This is my first coding project. I am super excited to learn further more!
 ```
