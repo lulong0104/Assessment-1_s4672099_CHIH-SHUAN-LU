@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Course Satisfaction Survey
 
 
@@ -10,3 +11,6 @@ github.com/google/docsy-example github.com/google/docsy/dependencies@v0.2.0
 github.com/google/docsy/dependencies@v0.2.0 github.com/twbs/bootstrap@v4.6.1+incompatible
 github.com/google/docsy/dependencies@v0.2.0 github.com/FortAwesome/Font-Awesome@v0.0.0-20210804190922-7d3d774145ac
 ```
+=======
+#Course Satisfaction Survey
+>>>>>>> b377717ca23a15cc3d1a9e532851c3435d53bd6e
