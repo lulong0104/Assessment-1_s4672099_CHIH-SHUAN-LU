@@ -147,8 +147,8 @@ form{
     padding: 0.75rem;
     font-size: 1.15rem;
     outline: none;
-    border-color: rgb(125, 80, 2);
-    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0.197);
+    border-radius: 10px;
 }
 
 .btn{
