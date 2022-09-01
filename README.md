@@ -3,7 +3,7 @@ A simple satisfaction survey for VU students who attend Web Technologies.
 ## Installation
 ```bash
 1.You can use HTML editing programs like Adobe Dreamweaver, Microsoft Expression Web, and Visual Studio Code.
-![My Image](../Assessment-1_s4672099_CHIH-SHUAN-LU/image/vs.png)
+<img src="https://ibb.co/sjVmwTC" alt="Give india logo" width="200" />
 2.Make sure that there is a browser installed on your computer.
 ```
 ## Survey Structure
