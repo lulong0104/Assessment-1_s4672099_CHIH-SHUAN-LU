@@ -84,3 +84,19 @@ input,button,select,textarea{
     font-weight: 200;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
 }
+
+.clue{
+    margin-left: 0.25rem;
+    font-size: 0.9rem;
+    color: #e4e4e4;
+}
+
+#quest{
+    color: rgb(241, 191, 98);
+    font-size: 1.5rem;
+}
+form{
+    background: var(--color-darkblue-alpha);
+    border-radius: 0.25rem;
+}
+
