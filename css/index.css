@@ -176,3 +176,17 @@ form{
         max-width: 760px;
     }
 }
+
+.range{
+    width: 60%;
+    margin: 20% auto;
+    position: relative;
+}
+
+#slider{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 7px;
+    outline: none;
+    border-radius: 3px;
+}
