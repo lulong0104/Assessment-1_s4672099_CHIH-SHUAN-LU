@@ -92,12 +92,15 @@ input,button,select,textarea{
 }
 
 #quest{
-    color: rgb(241, 191, 98);
+    color: rgb(255, 255, 255);
     font-size: 1.5rem;
 }
 form{
     background: rgba(83, 102, 63, 0.4) ;
-    border-radius: 0.25rem;
+    border-radius: 0.1rem;
+    padding: 1rem;
+    width: 45rem;
+    
 }
 
 @media (min-wide:480px){
