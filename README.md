@@ -16,3 +16,33 @@ A simple satisfaction survey for VU students who attend Web Technologies.
 ## Programming Language
 * HTML
 * CSS
+
+## What I learn from HTML&CSS
+-HTML-
+```bash
+·Form   
+·Input:text, textarea, checkbox, button, radio, range, submit
+·Label
+·Headings
+·Paragraph
+·Styles
+```
+-CSS-
+```bash
+·Color
+·Background
+·Broder
+·Outline
+·Text
+·Margins
+·Padding
+·Position
+·Opacity 
+·Height/Weight
+·Fonts
+·Z-index
+·Align
+·Transition
+·Button
+
+```
