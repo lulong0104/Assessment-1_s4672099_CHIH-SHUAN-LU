@@ -55,7 +55,7 @@ h1,p{
 label{
     display: flex;
     align-items: center;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     margin-bottom: 0.5rem;
 }
 
@@ -70,7 +70,7 @@ input,button,select,textarea{
 .container{
     width: 100%;
     margin: 3.125rem auto 0 auto;
-    padding: 1.85rem auto 0 auto;
+    padding:1.8rem 1rem;
 }
 
 .header{
